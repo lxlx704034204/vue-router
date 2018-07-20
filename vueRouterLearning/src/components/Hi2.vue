@@ -1,18 +1,17 @@
 <template>
-  <div class="hello">
+<div class="hello">
     <h1>{{ msg }}</h1>
-
-    <router-view />
-
   </div>
+
+
 </template>
 
 <script>
   export default {
-      name: 'hi',
+      name: 'hi2',
       data(){
           return {
-              msg: 'Hi, I am Hi Page !'
+              msg: 'Hi, I am Hi2 Page !'
           }
       }
   }
