@@ -40,3 +40,34 @@ name的用途，一种作用是传参，一种作用是在传参时起到名称�
     eg.    <h1>{{ msg }} - {{$route.params.username}}-{{$route.params.id}}</h1>
     
     
+第四讲 vue-router单页面多路由区域操作
+---
+`在实际的开发需求中，我们常常遇见这样的情况：在一个页面里我们有2个以上<router-view>区域，我们通过配置路由的js文件，来操作这些区域的内容。 `<br>
+可以这样简单的理解，我们有多个公共的组件，例如Header、Footer、Menu、Main1、Main2 等将一个页面划分为多个功能区，在功能转换（菜单切换）时，利用路由的js文件中，components属性配置多种组合，path属性配置对应的链接路径，这样就可以通过模块复用提高开发效率。
+
+App.vue文件
+    `<router-view/>
+    <router-view name="left" class="left"></router-view>
+    <router-view name="right" class="right"></router-view>`
+Router/indx.js文件
+    `Vue.use(Router)
+    export default new Router({
+      routes: [
+        {
+          path: '/',
+          components: {
+            default:Hello,
+            left:Hi1,
+            right:Hi2
+          }
+        },{
+          path: '/Hi',
+          components: {
+            default:Hello,
+            left:Hi2,
+            right:Hi1
+          }
+        }
+
+      ]
+    })`
