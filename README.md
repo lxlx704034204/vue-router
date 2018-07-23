@@ -68,6 +68,5 @@ Router/indx.js文件
             right:Hi1
           }
         }
-
       ]
     })`
