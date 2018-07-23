@@ -5,9 +5,11 @@
       导航：
       <router-link to="/">首页</router-link> |          <!-- 相当于 <a href="#"></a> -->
       <router-link to="/hi">Hi页面</router-link> |
-      <router-link to="/hi/hi1">Hi1</router-link> |
+      <router-link :to="{name:'hi1', params:{username:'yy', id:'666'}}">Hi1</router-link> |
       <router-link to="/hi/hi2">Hi2</router-link>
     </p>
+
+    <p> {{ $route.name}}</p>
 
     <router-view/>
 

@@ -12,16 +12,15 @@ export default new Router({
 routes: [                       //配置路由，这里是数组的形式
     {                           //每一个链接都是一个对象
       path: '/',                 //连接路径
-      /*name: 'HelloWorld',*/        //路由名称
+      name: 'HelloWorld',        //路由名称
       component: HelloWorld     //对应的组件模板
     },{
       path: '/hi',
-      /*name: 'Hi',*/
       component: Hi,
       children: [
-        { path: '/', component: Hi},
-        { path: 'hi1', component: Hi1},
-        { path: 'hi2', component: Hi2},
+        { path: '/',name: 'Hello/Hi', component: Hi},
+        { path: 'hi1',name: 'hi1', component: Hi1},
+        { path: 'hi2',name: 'Hello/Hi/Hi2', component: Hi2},
         ]
     }
   ]
