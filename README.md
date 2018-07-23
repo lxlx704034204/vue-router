@@ -20,8 +20,7 @@ to：是我们的导航路径，需要填写的是在router/index.js文件里配
 第二讲 vou-router配置子路由
 ---
 （1）新建Hi1.vue 、Hi2.vue界面，修改msg信息； <br>
-（2）在router/index.js 中引用组件并配置路由信息 <br>
-    注意children的取值是数组，子路由的路径为相对路径； <br>
+（2）在router/index.js 中引用组件并配置路由信息：注意children的取值是数组，子路由的路径为相对路径； <br>
 （3）在Hi.vue页面添加router-view标签，用于子模块的显示； <br>
 （4）在App.vue界面添加两个路由router-link标签，注意to属性的配置； <br>
 
