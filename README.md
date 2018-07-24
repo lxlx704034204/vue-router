@@ -125,4 +125,21 @@ Router/indx.js文件
       }
    在链接中调用时也是如此
 
-    <router-link to="/goParams/168/redirect to params page">Redirect 重定向</router-link>    
+    <router-link to="/goParams/168/redirect to params page">Redirect 重定向</router-link>  
+    
+    
+第七讲 vue-router别名的使用-alias
+---
+（1）在Router/index.js中配置alias属性
+
+    {
+        path: '/hi',
+        component: Hi,
+        alias: '/yy'
+    }
+在链接中直接调用别名路径
+
+    <router-link to="/yy">alias 别名</router-link>
+（2）注意**别名alias和重定向redirect的区别**：
+别名：为原有的路由地址 **设置** 新的链接路径，调用时**url显示新的地址**
+重定向：是将新的路由地址 **指向** 原有的路由地址， 调用时**url显示原有地址**
