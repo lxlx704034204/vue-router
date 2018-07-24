@@ -117,9 +117,12 @@ Router/indx.js文件
 （2）如果想带参数跳转到指定界面，则需要按照原有路由的参数定义规则传参；否则界面不能正确跳转
 
     {
-      path: '/goParams/:newsId(\\d+)/:newsTitle',
-      redirect: '/params/:newsId(\\d+)/:newsTitle'
-    }
+      path: '/params/:newsId(\\d+)/:newsTitle',
+      component: Params
+      },{
+          path: '/goParams/:newsId(\\d+)/:newsTitle',
+          redirect: '/params/:newsId(\\d+)/:newsTitle'
+      }
    在链接中调用时也是如此
 
     <router-link to="/goParams/168/redirect to params page">Redirect 重定向</router-link>    
