@@ -41,6 +41,9 @@ routes: [                       //配置路由，这里是数组的形式
   },{
       path: '/params/:newsId(\\d+)/:newsTitle',
       component: Params
+  },{
+      path: '/goParams/:newsId(\\d+)/:newsTitle',
+      redirect: '/params/:newsId(\\d+)/:newsTitle'
   }
   ]
 })
