@@ -33,7 +33,7 @@ name的用途，一种作用是传参，一种作用是在传参时起到名称�
 （1）路由文件中，可使用name属性进行参数设置，在模板文件中用$route.name取值 <br>
 （2.1）在启动页App.vue中，利用v-bind指令绑定属性to，属性值为对象的形式：第一个参数为name，一定要与路由router/index.js 中配置的name属性保持一致；第二个参数为params，以对象形式传递的参数；
 
-    eg.   <router-link :to="{name:'hi1', params:{username:'yy', id:'666'}}">Hi1</router-link>  
+    eg.    <router-link :to="{name:'hi1', params:{username:'yy', id:'666'}}">Hi1</router-link>  
     
 （2.2）在模板页Hi1.vue中，利用 $route.name // $route.params 进行参数的绑定和展示 
 
@@ -85,8 +85,8 @@ Router/indx.js文件
 （1）在路由文件Router/index.js中配置参数信息
 
     {
-      path: '/params/:newsId/:newsTitle',
-      component: Params
+        path: '/params/:newsId/:newsTitle',
+        component: Params
     }
 （2）在模板页Params.vue中绑定并展示参数
 
@@ -98,8 +98,8 @@ Router/indx.js文件
 （4）注意：可以在参数名称后面用括号定义参数的正则规范，例如：
 
     {
-      path: '/params/:newsId(\\d+)/:newsTitle',
-      component: Params
+        path: '/params/:newsId(\\d+)/:newsTitle',
+        component: Params
     }
 
 
@@ -108,8 +108,8 @@ Router/indx.js文件
 （1）在路由文件Router/index.js中利用redirect属性，配置路由的重定向信息
 
     {
-      path: '/goParams',
-      redirect: '/Hi'
+        path: '/goParams',
+        redirect: '/Hi'
     }
    在链接中调用goParams跳转到指定页面Hi
 
@@ -117,12 +117,12 @@ Router/indx.js文件
 （2）如果想带参数跳转到指定界面，则需要按照原有路由的参数定义规则传参；否则界面不能正确跳转
 
     {
-      path: '/params/:newsId(\\d+)/:newsTitle',
-      component: Params
-      },{
-          path: '/goParams/:newsId(\\d+)/:newsTitle',
-          redirect: '/params/:newsId(\\d+)/:newsTitle'
-      }
+        path: '/params/:newsId(\\d+)/:newsTitle',
+        component: Params
+    },{
+        path: '/goParams/:newsId(\\d+)/:newsTitle',
+        redirect: '/params/:newsId(\\d+)/:newsTitle'
+    }
    在链接中调用时也是如此
 
     <router-link to="/goParams/168/redirect to params page">Redirect 重定向</router-link>  
