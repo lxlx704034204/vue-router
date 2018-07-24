@@ -101,3 +101,25 @@ Router/indx.js文件
       path: '/params/:newsId(\\d+)/:newsTitle',
       component: Params
     }
+
+
+第六讲 vue-router的重定向-redirect
+---
+（1）在路由文件Router/index.js中利用redirect属性，配置路由的重定向信息
+
+    {
+      path: '/goParams',
+      redirect: '/Hi'
+    }
+   在链接中调用goParams跳转到指定页面Hi
+
+    <router-link to="/goParams">Redirect 重定向</router-link>
+（2）如果想带参数跳转到指定界面，则需要按照原有路由的参数定义规则传参；否则界面不能正确跳转
+
+    {
+      path: '/goParams/:newsId(\\d+)/:newsTitle',
+      redirect: '/params/:newsId(\\d+)/:newsTitle'
+    }
+   在链接中调用时也是如此
+
+    <router-link to="/goParams/168/redirect to params page">Redirect 重定向</router-link>    
