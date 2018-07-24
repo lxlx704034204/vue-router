@@ -78,3 +78,26 @@ Router/indx.js文件
         }
       ]
     })
+
+
+第五讲 vue-router利用url传递参数
+---
+（1）在路由文件Router/index.js中配置参数信息
+
+    {
+      path: '/params/:newsId/:newsTitle',
+      component: Params
+    }
+（2）在模板页Params.vue中绑定并展示参数
+
+    <p>newsId: {{$route.params.newsId}}</p>
+    <p>newsTitle: {{$route.params.newsTitle}}</p>
+（3）在启动页或者调用的链接中传递变量值
+
+    <router-link to="/params/666/this is anthor method of parameter missing">另一种参数传递的方式</router-link>
+（4）注意：可以在参数名称后面用括号定义参数的正则规范，例如：
+
+    {
+      path: '/params/:newsId(\\d+)/:newsTitle',
+      component: Params
+    }
