@@ -11,6 +11,12 @@
 
     <!--<p> {{ $route.name}}</p>-->
 
+    <br>
+    <router-link to="/">首页</router-link> |
+    <router-link to="/hi">Hi页面</router-link> |
+    <router-link to="/params/666/this is anthor method of parameter missing">另一种参数传递的方式</router-link>
+
+
     <router-view/>
     <router-view name="left" class="left"></router-view>
     <router-view name="right" class="right"></router-view>

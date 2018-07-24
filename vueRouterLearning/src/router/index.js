@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Hi from '@/components/Hi'
 import Hi1 from '@/components/Hi1'
 import Hi2 from '@/components/Hi2'
+import Params from '@/components/Params'
 
 
 Vue.use(Router)                 //vue 全局使用Router
@@ -37,6 +38,9 @@ routes: [                       //配置路由，这里是数组的形式
         left: Hi2,
         right: Hi1
       }
+  },{
+      path: '/params/:newsId(\\d+)/:newsTitle',
+      component: Params
   }
   ]
 })
