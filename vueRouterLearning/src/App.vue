@@ -12,10 +12,21 @@
     <!--<p> {{ $route.name}}</p>-->
 
     <br>
-    <router-link to="/">首页</router-link> |
-    <router-link to="/hi">Hi页面</router-link> |
-    <router-link to="/params/666/this is anthor method of parameter missing">另一种参数传递的方式</router-link> |
-    <router-link to="/goParams/168/redirect to params page">Redirect 重定向</router-link>
+    <div class="text-left">
+      单页面多路由区域操作:
+      <router-link to="/">首页</router-link> |
+      <router-link to="/hi">Hi页面</router-link>
+      <br>
+      url参数的传递：
+      <router-link to="/params/666/this is anthor method of parameter missing">另一种参数传递的方式</router-link> |
+      <br>
+      重定向：
+      <router-link to="/goHome">Redirect to HomePage</router-link> |
+      <router-link to="/goParams/168/redirect to params page">Redirect to Params Page</router-link>
+      <br>
+      别名：
+      <router-link to="/yy">alias 别名</router-link>
+    </div>
 
 
     <router-view/>
@@ -51,5 +62,8 @@ export default {
     width:50%;
     background-color:#c0c;
     height:300px;
+  }
+  .text-left {
+    text-align: left;
   }
 </style>
