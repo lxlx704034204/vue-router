@@ -185,3 +185,18 @@ Router/indx.js文件
         <transition name="fade" mode="out-in">
             <router-view/>
         </transition>
+
+
+第九讲 vue-router的模式和404错误页导航
+---
+（1）在router/index.js中，设置：
+
+        mode: "history" ，则浏览器路由为干净的地址；
+        mode: "hash"（默认），则浏览器路由会带上'/#/'，不符合用户的浏览习惯；
+（2）配置错误页ErrorPage.vue，在路由文件router/index.js中设置:
+
+        {
+           path:'*',
+           component:Error
+        }
+，则当浏览器根据路由地址找不到文件时，会自动跳转到404错误页。
