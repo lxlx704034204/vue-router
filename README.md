@@ -200,3 +200,48 @@ Router/indx.js文件
            component:Error
         }
 ，则当浏览器根据路由地址找不到文件时，会自动跳转到404错误页。
+
+
+第十讲
+---
+（1）路由的钩子选项既可以写在router/index.js文件中，也可以写在组件模板中。
+（2）在路由配置中编写钩子函数， 用于检测参数或者路径是否正确，利用if/else判断跳转的开关，从而在路由进入页面之前为其设置了一道防线。
+但是在路由文件中，只能写“进入”的钩子函数，不能写“离开”的钩子函数。
+        {
+            path: '/params/:newsId(\\d+)/:newsTitle',
+            component: Params,
+            beforeEnter: (to, from, next) => {
+                console.log(to);
+                console.log(from);
+                next(true);  //允许向下跳转
+                /* next(false)  或 不写next() 则不执行跳转的方法 */
+                //next({path: '/'});  //会跳转到指定的目录
+            }
+        }
+
+（3）“离开”的钩子函数需要在组件模板中配置。尤其要注意！忽略next()会导致界面跳转无响应！
+关于模板中的钩子函数，可以 结合vuex 实现界面跳转参数的传递和存储。
+        <script>
+          export default {
+              name: 'hi1',
+              data(){
+                  return {
+                      msg: 'Hi, I am params Page !'
+                  }
+              },
+              beforeRouteEnter: (to, from, next) => {
+                console.log("准备进入params路由模板");
+                next();
+              },
+              beforeRouteLeave: (to, from, next) => {
+                console.log("准备离开params路由模板");
+                next();
+              }
+          }
+        </script>
+
+
+
+
+
+

@@ -42,7 +42,14 @@ export default new Router({
           }
       },{
           path: '/params/:newsId(\\d+)/:newsTitle',
-          component: Params
+          component: Params,
+          beforeEnter: (to, from, next) => {
+            console.log(to);
+            console.log(from);
+            next(true);  //允许向下跳转
+            /*next(false)  / 不写next() 则不执行跳转的方法*/
+            //next({path: '/'});  //会跳转到指定的目录
+          }
       },{
           path: '/goHome',
           redirect: '/'
