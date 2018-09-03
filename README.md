@@ -244,6 +244,7 @@ Router/indx.js文件
 
 
 第十一讲 编程式导航
+---
 （1）我们以往编写的路由跳转都是在html中利用router-link标签的to属性进行跳转，类似于a标签的href属性；   <br>
 如果我们在js处理的过程中根据业务需要进行界面跳转，那么我们可以利用 **this.$router.go(-1/1)，或者this.$router.push('/hi')** ，进行导航的前进、后退以及界面跳转；
 

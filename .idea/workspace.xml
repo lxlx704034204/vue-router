@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="260bb3d3-3c03-4b34-aa58-87028dfb36d1" name="Default" comment="编辑讲义">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueRouterLearning/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueRouterLearning/src/App.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +25,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="197" />
-          <entry key="md" value="1032" />
+          <entry key="md" value="1036" />
           <entry key="txt" value="47" />
           <entry key="vue" value="351" />
         </counts>
@@ -35,7 +33,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="197" />
-          <entry key="PLAIN_TEXT" value="1079" />
+          <entry key="PLAIN_TEXT" value="1083" />
           <entry key="Vue.js" value="351" />
         </counts>
       </usages-collector>
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+            <state relative-caret-position="103">
+              <caret line="246" column="3" selection-start-line="246" selection-start-column="3" selection-end-line="246" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -254,7 +252,7 @@
       <workItem from="1532076725811" duration="1088000" />
       <workItem from="1532077838233" duration="5362000" />
       <workItem from="1533611404601" duration="2275000" />
-      <workItem from="1535783551293" duration="6663000" />
+      <workItem from="1535783551293" duration="7243000" />
     </task>
     <task id="LOCAL-00001" summary="编辑讲义">
       <created>1533612145184</created>
@@ -302,7 +300,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45657000" />
+    <option name="totallyTimeSpent" value="46237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+        <state relative-caret-position="103">
+          <caret line="246" column="3" selection-start-line="246" selection-start-column="3" selection-end-line="246" selection-end-column="3" />
         </state>
       </provider>
     </entry>
