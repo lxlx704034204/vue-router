@@ -12,6 +12,11 @@
     <!--<p> {{ $route.name}}</p>-->
 
     <br>
+    <div>
+      <button @click="goback">后退</button>
+      <button @click="gohead">前进</button>
+      <button @click="jumpTo">界面跳转</button>
+    </div>
     <div class="text-left">
       单页面多路由区域操作:
       <router-link to="/">首页</router-link> |
@@ -40,7 +45,18 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  methods: {
+    goback(){
+      this.$router.go(-1);
+    },
+    gohead() {
+      this.$router.go(1);
+    },
+    jumpTo() {
+      this.$router.push('/hi');
+    }
+  }
 }
 </script>
 

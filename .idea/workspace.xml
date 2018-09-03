@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="260bb3d3-3c03-4b34-aa58-87028dfb36d1" name="Default" comment="编辑讲义">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueRouterLearning/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueRouterLearning/src/App.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,25 +27,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="197" />
-          <entry key="md" value="793" />
+          <entry key="md" value="1032" />
           <entry key="txt" value="47" />
-          <entry key="vue" value="184" />
+          <entry key="vue" value="351" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="197" />
-          <entry key="PLAIN_TEXT" value="840" />
-          <entry key="Vue.js" value="184" />
+          <entry key="PLAIN_TEXT" value="1079" />
+          <entry key="Vue.js" value="351" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="md" value="1" />
           <entry key="vue" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Vue.js" value="1" />
         </counts>
       </usages-collector>
@@ -57,30 +61,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="222" column="53" selection-start-line="222" selection-start-column="53" selection-end-line="222" selection-end-column="53" />
+            <state relative-caret-position="597">
+              <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/main.js">
+        <entry file="file://$PROJECT_DIR$/QA.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#140#161#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="33" column="17" selection-start-line="31" selection-start-column="4" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="104">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -88,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+            <state relative-caret-position="442">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -98,10 +89,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="45" selection-start-line="45" selection-end-line="60" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/components/Params.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="8" selection-start-line="8" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="130">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -126,9 +126,9 @@
         <option value="$PROJECT_DIR$/vueRouterLearning/src/components/Hi.vue" />
         <option value="$PROJECT_DIR$/vueRouterLearning/src/components/HelloWorld.vue" />
         <option value="$PROJECT_DIR$/vueRouterLearning/src/components/Hi1.vue" />
-        <option value="$PROJECT_DIR$/vueRouterLearning/src/App.vue" />
         <option value="$PROJECT_DIR$/vueRouterLearning/src/router/index.js" />
         <option value="$PROJECT_DIR$/vueRouterLearning/src/components/Params.vue" />
+        <option value="$PROJECT_DIR$/vueRouterLearning/src/App.vue" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -153,7 +153,7 @@
       <path value="$PROJECT_DIR$/vueRouterLearning/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="841" />
     <option name="width" value="1787" />
     <option name="height" value="1056" />
@@ -254,7 +254,7 @@
       <workItem from="1532076725811" duration="1088000" />
       <workItem from="1532077838233" duration="5362000" />
       <workItem from="1533611404601" duration="2275000" />
-      <workItem from="1535783551293" duration="4644000" />
+      <workItem from="1535783551293" duration="6663000" />
     </task>
     <task id="LOCAL-00001" summary="编辑讲义">
       <created>1533612145184</created>
@@ -270,11 +270,39 @@
       <option name="project" value="LOCAL" />
       <updated>1533612702342</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="编辑讲义">
+      <created>1535797358293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535797358293</updated>
+    </task>
+    <task id="LOCAL-00004" summary="编辑讲义">
+      <created>1535797416882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535797416882</updated>
+    </task>
+    <task id="LOCAL-00005" summary="编辑讲义">
+      <created>1535797491787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535797491787</updated>
+    </task>
+    <task id="LOCAL-00006" summary="编辑讲义">
+      <created>1535797662422</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535797662422</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43638000" />
+    <option name="totallyTimeSpent" value="45657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,10 +314,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="841" y="0" width="1787" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.117544875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108208954" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5063966" side_tool="true" weight="0.329718" />
@@ -360,9 +388,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="编辑讲义" />
     <MESSAGE value="第九讲 vue-router的模式及404错误页的导航文字版说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="第九讲 vue-router的模式及404错误页的导航文字版说明" />
+    <MESSAGE value="编辑讲义" />
+    <option name="LAST_COMMIT_MESSAGE" value="编辑讲义" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vueRouterLearning/node_modules/webpack/lib/validateSchema.js">
@@ -417,13 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="17" selection-start-line="31" selection-start-column="4" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/components/HelloWorld.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -445,6 +466,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/components/Hi1.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -456,17 +484,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/components/Hi1.vue">
+    <entry file="file://$PROJECT_DIR$/QA.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        <state relative-caret-position="442">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -475,15 +503,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/components/Params.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="8" selection-start-line="8" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="130">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vueRouterLearning/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="45" selection-start-line="45" selection-end-line="60" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="222" column="53" selection-start-line="222" selection-start-column="53" selection-end-line="222" selection-end-column="53" />
+        <state relative-caret-position="597">
+          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
         </state>
       </provider>
     </entry>
